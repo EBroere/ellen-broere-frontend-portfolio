@@ -1,0 +1,148 @@
+:root {
+  --primary-color: #E88174;
+  --secondary-color: white;
+  --background-color: #E9E8DC;
+  --button-background-color: #E7594F;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 60px auto;
+  display: block;
+}
+
+.container{
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  font-size: 96px !important;
+}
+
+h2 {
+  font-size: 48px;
+  display: block;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.navbar{
+  margin-top: -55px;
+}
+
+.navagation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navagation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+a {
+  cursor: pointer;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px 0px 0px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  display: block;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.inner {
+  width: 100%;
+  height: 105%;
+  background-color: var(--background-color); 
+  box-shadow: var(--box-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner img {
+  margin: 50px;
+  width: 50%;
+}
+
+.card-title{
+  font-size: 48px;
+  
+  margin-bottom: 0 ;
+}
+
+.card-text{
+  text-align: left;
+}
+
+.btn-primary{
+  background: var(--primary-color)!important;
+  box-shadow: var(--box-shadow)!important;
+  color: white !important;
+  border: 1px solid var(--primary-color)!important;
+  
+}
+
+.iframe{
+  height: 650px;
+  width: 650px;
+  display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    border: none;
+}
+
+.footer{
+  margin-top: 40px;
+}
