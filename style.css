@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #E88174;
+  --primary-color: #e88174;
   --secondary-color: white;
-  --background-color: #E9E8DC;
-  --button-background-color: #E7594F;
+  --background-color: #e9e8dc;
+  --button-background-color: #e7594f;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -11,7 +11,7 @@ body {
   display: block;
 }
 
-.container{
+.container {
   width: 100%;
 }
 
@@ -35,7 +35,11 @@ h3 {
   opacity: 0.7;
 }
 
-.navbar{
+h6 {
+  text-align: center;
+  margin-top: 60px;
+}
+.navbar {
   margin-top: -55px;
 }
 
@@ -62,6 +66,24 @@ h3 {
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+
+.skills {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  padding: 20px;
+  margin: 80px 100px 30px 100px;
+  border-radius: 20px;
+}
+
+.certificates {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  padding: 20px;
+  margin: 80px 100px 20px 100px;
+  border-radius: 20px;
 }
 
 a {
@@ -104,7 +126,7 @@ p {
 .inner {
   width: 100%;
   height: 105%;
-  background-color: var(--background-color); 
+  background-color: var(--background-color);
   box-shadow: var(--box-shadow);
   display: flex;
   align-items: center;
@@ -116,33 +138,37 @@ p {
   width: 50%;
 }
 
-.card-title{
-  font-size: 48px;
-  
-  margin-bottom: 0 ;
+.img-container img {
+  width: 1%;
+  height: 1%;
 }
 
-.card-text{
+.card-title {
+  font-size: 48px;
+
+  margin-bottom: 0;
+}
+
+.card-text {
   text-align: left;
 }
 
-.btn-primary{
-  background: var(--primary-color)!important;
-  box-shadow: var(--box-shadow)!important;
+.btn-primary {
+  background: var(--primary-color) !important;
+  box-shadow: var(--box-shadow) !important;
   color: white !important;
-  border: 1px solid var(--primary-color)!important;
-  
+  border: 1px solid var(--primary-color) !important;
 }
 
-.iframe{
+.iframe {
   height: 650px;
   width: 650px;
   display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    border: none;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  border: none;
 }
 
-.footer{
+.footer {
   margin-top: 40px;
 }
