@@ -54,7 +54,7 @@ h6 {
 
 .navagation-links {
   display: flex;
-  margin-top: 40px;
+
   justify-content: center;
 }
 
@@ -94,7 +94,7 @@ h6 {
 }
 
 .index {
-  margin-top: 300px;
+  margin-top: 250px;
   margin-bottom: 300px;
 }
 
