@@ -1,23 +1,27 @@
 :root {
-  --primary-color: #e88174;
+  --primary-color: #7b8580;
   --secondary-color: white;
-  --background-color: #e9e8dc;
+  --background-color: #c9cbb9;
   --button-background-color: #e7594f;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
+  background-color: #c9cbb9;
+  columns: white;
   margin: 60px auto;
   display: block;
 }
 
 .container {
+  color: white;
   width: 100%;
 }
 
 h1,
 h2,
 h3 {
+  color: white;
   text-align: center;
   margin: 0;
 }
@@ -36,11 +40,17 @@ h3 {
 }
 
 h6 {
+  color: white;
   text-align: center;
   margin-top: 60px;
 }
+
 .navbar {
+  background-color: var(--background-color) !important;
+  box-shadow: var(--box-shadow);
+  color: white !important;
   margin-top: -55px;
+  margin-bottom: 300px;
 }
 
 .navagation-links {
@@ -69,25 +79,36 @@ h6 {
 }
 
 .skills {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
   color: white;
+  font-size: 48px;
   padding: 20px;
-  margin: 80px 100px 30px 100px;
+  margin: 300px 100px 30px 100px;
   border-radius: 20px;
 }
 
 .certificates {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
   color: white;
+  font-size: 48px;
   padding: 20px;
-  margin: 80px 100px 20px 100px;
+  margin: 250px 100px 30px 100px;
   border-radius: 20px;
 }
 
 a {
+  color: var(--primary-color);
   cursor: pointer;
+}
+
+a :visited {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: white;
+}
+
+.contact-link:hoover {
+  color: (--primary-color);
 }
 
 .homepage-link {
@@ -106,7 +127,8 @@ a {
 }
 
 p {
-  background: var(--secondary-color);
+  color: #7b8580;
+  background-color: var(--background-color) !important;
   padding: 20px 0px 0px;
   border-radius: 4px;
   font-size: 18px;
@@ -144,6 +166,7 @@ p {
 }
 
 .card-title {
+  color: #7b8580;
   font-size: 48px;
 
   margin-bottom: 0;
@@ -171,4 +194,40 @@ p {
 
 .footer {
   margin-top: 40px;
+}
+
+.down-arrow {
+  position: absolute;
+  top: calc(100vh - 80px);
+  left: calc(50% - 14px);
+  width: 0;
+  height: 30px;
+  border: 2px solid;
+  border-radius: 2px;
+  animation: jumpInfinite 1.5s infinite;
+}
+
+.down-arrow:after {
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
 }
