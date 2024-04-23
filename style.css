@@ -112,9 +112,27 @@ p {
   box-shadow: var(--box-shadow) !important;
   color: var(--secondary-color) !important;
   border: 1px solid var(--primary-color) !important;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #fff !important;
+  color: var(--primary-color) !important;
+  border: 1px solid var(--primary-color) !important;
+}
+
+.btn {
+  border: 1px solid var(--primary-color) !important;
+}
+
+.btn:hoover {
+  background-color: #fff !important;
+  color: var(--primary-color) !important;
+  border: 1px solid var(--primary-color) !important;
 }
 
 /* About page */
+
 .about-portfolio {
   margin-top: 30px;
 }
@@ -155,15 +173,16 @@ p {
 }
 
 .about-paragraphs {
-  background-color: var(--primary-color);
+  background-color: white !important;
+  color: var(--primary-color) !important;
   display: flex;
-  margin: 30px 0;
-  border-radius: 20px;
+  margin: 50px 0 !important;
   box-shadow: var(--box-shadow);
 }
 
 .about-paragraphs p {
-  background-color: var(--primary-color) !important;
+  background-color: white !important;
+  color: var(--primary-color) !important;
   color: var(--secondary-color);
   margin: 10px;
 }
@@ -213,6 +232,7 @@ p {
 
 .card-text {
   text-align: left;
+  background-color: white !important;
 }
 
 /* URLs */
