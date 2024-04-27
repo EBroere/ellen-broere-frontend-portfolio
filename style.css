@@ -330,6 +330,11 @@ p {
     padding-top: 30px;
     padding-bottom: 30px;
   }
+
+  #pilea.inner {
+    padding-top: 0px !important;
+    margin-top: -35px;
+  }
 }
 
 @media (max-width: 771px) {
