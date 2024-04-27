@@ -324,6 +324,12 @@ p {
   .order-xs-last {
     order: 2;
   }
+
+  .inner {
+    height: 120%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 @media (max-width: 771px) {
@@ -354,7 +360,6 @@ p {
     font-size: 15px;
     margin-bottom: auto;
   }
-
 }
 
 /* URLs */
