@@ -229,13 +229,14 @@ p {
   color: var(--primary-color) !important;
   display: flex;
   margin: 50px 0 !important;
+  padding-bottom: 20px;
   /* box-shadow: var(--box-shadow);*/
 }
 
 .about-paragraphs p {
   background-color: var(--secondary-color) !important;
   color: var(--primary-color) !important;
-  margin: 10px;
+  margin: 20px 40px 0px 40px;
 }
 
 .info {
@@ -325,6 +326,10 @@ p {
     order: 2;
   }
 
+  .order-first {
+    order: 3;
+  }
+
   .inner {
     height: 120%;
     padding-top: 30px;
@@ -334,6 +339,12 @@ p {
   #pilea.inner {
     padding-top: 0px !important;
     margin-top: -35px;
+  }
+}
+
+@media (max-width: 800px) {
+  .order-xs-last {
+    order: 1;
   }
 }
 
