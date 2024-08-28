@@ -282,6 +282,9 @@ nav li.active a {
   padding-bottom: 33px;
   background-color: var(--secondary-color) !important;
 }
+.container-fluid-portfolio-about {
+  padding-bottom: 0;
+}
 .inner {
   width: 99% !important;
   height: 105% !important;
@@ -300,6 +303,13 @@ nav li.active a {
   justify-content: center;
   margin: auto;
   box-shadow: var(--box-shadow);
+}
+
+.inner-about img {
+  box-shadow: none;
+}
+.inner-about .text-center {
+  margin-bottom: 30px;
 }
 
 .img-container img {
