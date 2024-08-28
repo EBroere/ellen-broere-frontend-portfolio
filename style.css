@@ -193,16 +193,8 @@ nav li.active a {
   margin-top: 30px;
 }
 
-.skills {
-  color: var(--secondary-color);
-  font-size: 48px;
-  padding: 20px;
-  margin: 30px 100px 30px 100px;
-  border-radius: 20px;
-}
-
+.skills,
 .certificates {
-  color: var(--secondary-color);
   font-size: 48px;
   padding: 20px;
   margin: 30px 100px 30px 100px;
@@ -399,7 +391,7 @@ a:hover {
 /* Footer */
 .footer-dark {
   padding: 50px 0;
-  color: #f0f9ff;
+  color: #f0f9ff !important;
   background-color: #282d32;
   margin-bottom: -60px;
 }
