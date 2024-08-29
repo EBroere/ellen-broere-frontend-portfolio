@@ -253,9 +253,13 @@ nav li.active a {
   }
 
   .skills {
-    margin: auto;
+    margin: -30px;
     text-align: center;
     font-size: 25px;
+  }
+
+  .row{
+
   }
 
   .certificates {
@@ -274,16 +278,22 @@ nav li.active a {
     margin-top: -35px;
   }
 
-  #aboutme.col-md-6{
+  #aboutme.col-md-6 {
     padding-top: 0px !important;
     margin-top: -45px;
+    margin-bottom: -55px;
   }
 
-  #aboutme.card-body{
+  #aboutme.card-body {
     padding-top: 0px !important;
     margin-top: -20px;
+    margin-bottom: -10px;
   }
-  
+
+  #aboutme.about-paragraphs {
+    padding-bottom: 0px !important;
+    margin-bottom: 30px !important;
+  }
 }
 
 @media (max-width: 1000px) {
