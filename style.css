@@ -258,8 +258,7 @@ nav li.active a {
     font-size: 25px;
   }
 
-  .row{
-
+  .row {
   }
 
   .certificates {
@@ -323,7 +322,6 @@ nav li.active a {
 
 .inner img {
   width: 70%;
-  height: 70%;
   display: block;
   align-items: center;
   justify-content: center;
@@ -383,7 +381,7 @@ nav li.active a {
 @media (max-width: 771px) {
   .inner {
     width: 100% !important;
-    height: 50% !important;
+    /* height: 50% !important; */
     display: block !important;
     text-align: left !important;
     justify-content: left !important;
@@ -395,7 +393,6 @@ nav li.active a {
     justify-content: center;
     margin: auto;
     width: 30%;
-    height: 25%;
   }
 
   .img-container img {
@@ -543,7 +540,7 @@ footer h3 {
 @media (max-width: 767.98px) {
   .container-fluid-portfolio .row {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
   }
   .container-fluid-portfolio .col-md-6 {
     width: 100%;
